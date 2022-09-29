@@ -5,7 +5,7 @@ def baby_up(x,y,frame):
     map.draw(400,30)
     baby.clip_draw(frame*100,0,90,75,x,y)
     update_canvas()
-    delay(0.1)
+    delay(0.05)
     
 def baby_go(x,y,frame):
     clear_canvas()
@@ -15,21 +15,21 @@ def baby_go(x,y,frame):
     else:
         baby.clip_draw(frame*97,350,75,75,x,y)
     update_canvas()
-    delay(0.1)
+    delay(0.05)
 
 def baby_jump(x,y,frmae):
     clear_canvas()
     map.draw(400,30)
     baby.clip_draw(frame*97,0,75,75,x,y)
     update_canvas()
-    delay(0.1)
+    delay(0.05)
     
 def baby_stand(x,y,frame):
     clear_canvas()
     map.draw(400,30)
     baby.clip_draw(frame*97,425,75,75,x,y)
     update_canvas()
-    delay(0.1)
+    delay(0.05)
 
 def baby_fall(x,y,frame):
     clear_canvas()
@@ -39,14 +39,14 @@ def baby_fall(x,y,frame):
     else:
         baby.clip_draw((frame-1)*97,70,75,75,x,y)
     update_canvas()
-    delay(0.1)
+    delay(0.05)
 
 def baby_fight(x,y,frame):
     clear_canvas()
     map.draw(400,30)
     baby.clip_draw((frame+1)*97,140,100,75,x,y)
     update_canvas()
-    delay(0.1)
+    delay(0.05)
 
 def baby_roll(x,y,frame):
     clear_canvas()
@@ -60,7 +60,7 @@ def baby_roll(x,y,frame):
     else:
         baby.clip_draw(frame*97,350,75,75,x,y)
     update_canvas()
-    delay(0.1)
+    delay(0.05)
 
 
 
