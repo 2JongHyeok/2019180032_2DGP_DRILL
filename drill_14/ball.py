@@ -34,3 +34,4 @@ class Ball:
         print('ball disappear')
         if group == 'boy:ball':
             game_world.remove_object(self)
+            server.boy.picked_ball_count += 1

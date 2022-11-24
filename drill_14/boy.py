@@ -75,7 +75,6 @@ class WalkingState:
         sx, sy = boy.x - server.background.window_left, boy.y - server.background.window_bottom
 
         boy.font.draw(sx - 80, sy + 60, 'picked_balls : %d' % boy.picked_ball_count, (255, 255, 0))
-        boy.font.draw(sx - 80, sy + 120, 'picked_balls : %d %d' %(boy.x, boy.y), (255, 255, 0))
 
         if boy.x_velocity > 0:
             boy.image.clip_draw(int(boy.frame) * 100, 100, 100, 100, sx, sy)
